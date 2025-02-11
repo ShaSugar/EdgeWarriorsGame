@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa40d9063c3676941af0ecec64a825dd, type: 3}
+  m_Name: MonsterType1PathConfigData1_1
+  m_EditorClassIdentifier: 
+  unitId: 1
+  spawnId: 1
+  inSpeed: -1
+  outSpeed: -1
+  minAttackTime: 1
+  maxAttackTime: 3
+  attackCount: 1000
+  attackPercent: 50
+  strikePercent: 0
+  strikeAttackPercent: 0
+  pathPosList:
+  - inStartPosList:
+    - {x: -51, y: -4, z: 60}
+    - {x: -60, y: -4, z: 70}
+    - {x: 34, y: -4, z: 55}
+    - {x: 43, y: -4, z: 70}
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 40}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 40}
+    outEndPosList:
+    - {x: -51, y: -4, z: 60}
+    - {x: -60, y: -4, z: 70}
+    - {x: 34, y: -4, z: 55}
+    - {x: 43, y: -4, z: 70}
+    attackIndexList: 0000000001000000020000000300000004000000
+    isPlayEnterAnim: 0
+    isEnterAttackPos: 0

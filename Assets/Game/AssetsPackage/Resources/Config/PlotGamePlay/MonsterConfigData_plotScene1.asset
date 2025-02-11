@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902a7c11cec692e49b678f8ea6657a44, type: 3}
+  m_Name: MonsterConfigData_plotScene1
+  m_EditorClassIdentifier: 
+  data:
+  - monsterID: 1
+    monsterType: 0
+    prefab: Monster/PlotGamePlay/plotScene1_eryu_1
+    autoActive: 0
+    enterAction: 
+    idleAction: eyu_all_daiji
+    hitAction: eyu_all_hit
+    runAction: eyu_all_pao
+    attackAction: eyu_all_gongji
+    dieAction: eyu_all_siwang
+    enterStartPosList:
+    - {x: 10.8, y: 0, z: 44.7}
+    - {x: 8.9, y: 0, z: 29.99}
+    - {x: 6.8, y: -1, z: 19.2}
+    - {x: 0.8, y: -1, z: 7.8}
+    - {x: 0, y: -1, z: -3}
+    enterPathSpeed: 10
+    ease: 1
+    health: 100
+    score: 10
+    attack: 10
+    dieEffectPrefab: Effects/UnitDieEffect
+    attackSound: Sounds/1_eryu_attack
+    dieSound: Sounds/1_eryu_die
+    dieVoicePercent: 20
+    dieVoiceList:
+    - Sounds/voice_0
+    - Sounds/voice_1
+    - Sounds/voice_2
+    - Sounds/voice_3
+    dieVoiceListEN: []
+    minAttackTime: 1
+    maxAttackTime: 3
+    attackPercent: 50
+    attackShakePercent: 100
+    bombSound: 
+    bombDamage: 0
+  - monsterID: 2
+    monsterType: 0
+    prefab: Monster/PlotGamePlay/plotScene1_eryu_1
+    autoActive: 0
+    enterAction: 
+    idleAction: eyu_all_daiji
+    hitAction: eyu_all_hit
+    runAction: eyu_all_pao
+    attackAction: eyu_all_gongji
+    dieAction: eyu_all_siwang
+    enterStartPosList:
+    - {x: 10.8, y: 0, z: 44.7}
+    - {x: 8.9, y: 0, z: 29.99}
+    - {x: 6.8, y: -1, z: 19.2}
+    - {x: 0.8, y: -1, z: 7.8}
+    - {x: 6, y: -1, z: -3}
+    enterPathSpeed: 10
+    ease: 1
+    health: 100
+    score: 10
+    attack: 10
+    dieEffectPrefab: Effects/UnitDieEffect
+    attackSound: Sounds/1_eryu_attack
+    dieSound: Sounds/1_eryu_die
+    dieVoicePercent: 20
+    dieVoiceList:
+    - Sounds/voice_0
+    - Sounds/voice_1
+    - Sounds/voice_2
+    - Sounds/voice_3
+    dieVoiceListEN: []
+    minAttackTime: 1
+    maxAttackTime: 3
+    attackPercent: 50
+    attackShakePercent: 100
+    bombSound: 
+    bombDamage: 0
+  - monsterID: 3
+    monsterType: 0
+    prefab: Monster/PlotGamePlay/plotScene1_eryu_1
+    autoActive: 0
+    enterAction: 
+    idleAction: eyu_all_daiji
+    hitAction: eyu_all_hit
+    runAction: eyu_all_pao
+    attackAction: eyu_all_gongji
+    dieAction: eyu_all_siwang
+    enterStartPosList:
+    - {x: -10.8, y: 0, z: 44.7}
+    - {x: -8.9, y: 0, z: 29.99}
+    - {x: -6.8, y: -1, z: 19.2}
+    - {x: -0.8, y: -1, z: 7.8}
+    - {x: -6, y: -1, z: -3}
+    enterPathSpeed: 10
+    ease: 1
+    health: 100
+    score: 10
+    attack: 10
+    dieEffectPrefab: Effects/UnitDieEffect
+    attackSound: Sounds/1_eryu_attack
+    dieSound: Sounds/1_eryu_die
+    dieVoicePercent: 20
+    dieVoiceList:
+    - Sounds/voice_0
+    - Sounds/voice_1
+    - Sounds/voice_2
+    - Sounds/voice_3
+    dieVoiceListEN: []
+    minAttackTime: 1
+    maxAttackTime: 5
+    attackPercent: 100
+    attackShakePercent: 100
+    bombSound: 
+    bombDamage: 0
+  groupData:
+  - groupID: 1
+    monsterIDList: 0200000003000000

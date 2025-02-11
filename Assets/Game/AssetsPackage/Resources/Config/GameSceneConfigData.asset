@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d30ac3584a4024aa55d76de8629a69, type: 3}
+  m_Name: GameSceneConfigData
+  m_EditorClassIdentifier: 
+  data:
+  - sceneName: scene1
+    playType: 0
+    initCameraPos: {x: 0, y: 17.06, z: -84.29}
+    initCameraAngle: {x: 15.930786, y: 0, z: 0}
+    isShowGameStartEffect: 1
+    continueTime: 30
+    levelNum: 4
+  - sceneName: scene2
+    playType: 0
+    initCameraPos: {x: 27, y: 52.296, z: 75.253}
+    initCameraAngle: {x: 3.7, y: -179.91, z: 0}
+    isShowGameStartEffect: 1
+    continueTime: 30
+    levelNum: 9
+  - sceneName: scene3
+    playType: 0
+    initCameraPos: {x: -21.826, y: -1.318, z: -81.752}
+    initCameraAngle: {x: 1.972, y: -4.032, z: 0}
+    isShowGameStartEffect: 1
+    continueTime: 30
+    levelNum: 5

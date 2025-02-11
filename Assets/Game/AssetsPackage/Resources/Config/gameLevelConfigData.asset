@@ -1,0 +1,962 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c4b4226b2488f42b36d83455e804c9, type: 3}
+  m_Name: gameLevelConfigData
+  m_EditorClassIdentifier: 
+  data:
+  - scene: 1
+    level: 1
+    unitId: -1
+    levelStr: 
+    winStr: "\u606D\u559C\u901A\u5173\u6210\u529F\uFF0C\u9A6C\u4E0A\u524D\u5F80\u4E0B\u4E00\u636E\u70B9\uFF01\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 'Congratulations on successfully clearing the level! Proceed to the
+      next location immediately!! '
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 01000000020000000300000004000000
+      _values: 140000000a0000000500000003000000
+    isAdvanceSpawn: 1
+    spawnIds: 01000000020000000300000004000000
+    cameraPos: {x: 0, y: 4, z: -23}
+    cameraAngle: {x: 0, y: 0, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -12, y: -5, z: 20}
+    - {x: -6, y: -5, z: 20}
+    - {x: 0, y: -5, z: 20}
+    - {x: 6, y: -5, z: 20}
+    - {x: 12, y: -5, z: 20}
+    - {x: 0, y: 1, z: 25}
+    attackPointPre:
+    - {x: -12, y: -5, z: 25}
+    - {x: -6, y: -5, z: 25}
+    - {x: 0, y: -5, z: 25}
+    - {x: 6, y: -5, z: 25}
+    - {x: 12, y: -5, z: 25}
+    - {x: 0, y: 1, z: 33}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene1\bg_scene1_level1
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 1
+    level: 2
+    unitId: -1
+    levelStr: 
+    winStr: "\u606D\u559C\u901A\u5173\u6210\u529F\uFF0C\u9A6C\u4E0A\u524D\u5F80\u4E0B\u4E00\u636E\u70B9\uFF01\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 'Congratulations on successfully clearing the level! Proceed to the
+      next location immediately!! '
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 01000000020000000300000004000000
+      _values: 140000000a0000000500000003000000
+    isAdvanceSpawn: 0
+    spawnIds: 650000006600000067000000680000006f0000007100000072000000
+    cameraPos: {x: -40, y: 3.8999999, z: 91.14}
+    cameraAngle: {x: 0, y: 0, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -12, y: -3.9, z: 20}
+    - {x: -6, y: -3.9, z: 20}
+    - {x: 0, y: -3.9, z: 20}
+    - {x: 6, y: -3.9, z: 20}
+    - {x: 12, y: -3.9, z: 20}
+    - {x: 0, y: 2, z: 30}
+    attackPointPre:
+    - {x: -12, y: -3.9, z: 25}
+    - {x: -6, y: -3.9, z: 25}
+    - {x: 0, y: -3.9, z: 25}
+    - {x: 6, y: -3.9, z: 25}
+    - {x: 12, y: -3.9, z: 25}
+    - {x: 0, y: 2, z: 38}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene1\bg_scene1_level2
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 1
+    level: 3
+    unitId: -1
+    levelStr: 
+    winStr: "\u606D\u559C\u901A\u5173\u6210\u529F\uFF0C\u9A6C\u4E0A\u524D\u5F80\u4E0B\u4E00\u636E\u70B9\uFF01\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 'Congratulations on successfully clearing the level! Proceed to the
+      next location immediately!! '
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 01000000020000000300000004000000
+      _values: 140000000a0000000500000003000000
+    isAdvanceSpawn: 0
+    spawnIds: c9000000ca000000cb000000cc000000d3000000d5000000d6000000
+    cameraPos: {x: -31.8, y: 4.121088, z: 162.4}
+    cameraAngle: {x: 0, y: 299.18845, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -12, y: -3.9, z: 20}
+    - {x: -6, y: -3.9, z: 20}
+    - {x: 0, y: -3.9, z: 20}
+    - {x: 6, y: -3.9, z: 20}
+    - {x: 12, y: -3.9, z: 20}
+    - {x: 0, y: 2, z: 30}
+    attackPointPre:
+    - {x: -12, y: -3.9, z: 25}
+    - {x: -6, y: -3.9, z: 25}
+    - {x: 0, y: -3.9, z: 25}
+    - {x: 6, y: -3.9, z: 25}
+    - {x: 12, y: -3.9, z: 25}
+    - {x: 0, y: 2, z: 38}
+    isBossLevel: 0
+    bgmPath: Soundsbg\scene1\bg_scene1_level3
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 1
+    level: 4
+    unitId: 1099
+    levelStr: 
+    winStr: "\u606D\u559C\u60A8\u6210\u529F\u901A\u5173\u6240\u6709\u636E\u70B9\uFF01\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: Congratulations on successfully clearing all the bases! Looking forward
+      to your next challenge!!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 01000000020000000300000004000000
+      _values: 140000000a0000000500000003000000
+    isAdvanceSpawn: 0
+    spawnIds: 4b040000
+    cameraPos: {x: -85.3, y: 18.73, z: 310.3}
+    cameraAngle: {x: 0, y: 16.889, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 0, y: -3, z: 35}
+    attackPointPre:
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 0, y: -3, z: 45}
+    isBossLevel: 1
+    bgmPath: 
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 2
+    level: 1
+    unitId: -1
+    levelStr: "\u5C0F\u82F1\u96C4\u4EEC\u6CE8\u610F\u5566\uFF01\u53D8\u5F02\u751F\u7269\u4EEC\u6B63\u8822\u8822\u6B32\u52A8\uFF01\u4F60\u4EEC\u9700\u8981\u6D88\u706D{0}\u53EA\u53D8\u5F02\u751F\u7269\uFF0C\u6216\u8005\u7D2F\u79EF\u83B7\u5F97{1}\u5206\u7684\u6218\u6597\u6210\u679C\uFF0C\u624D\u80FD\u89E3\u9501\u901A\u5F80\u4E0B\u4E00\u533A\u57DF\u7684\u5927\u95E8\u3002\u52A0\u6CB9\uFF0C\u8BA9\u6211\u4EEC\u770B\u5230\u4F60\u4EEC\u7684\u52C7\u6562\u548C\u667A\u6167\uFF01"
+    winStr: "\u592A\u68D2\u4E86\uFF01\u4F60\u4EEC\u6210\u529F\u51FB\u9000\u4E86\u7B2C\u4E00\u6CE2\u7684\u53D8\u5F02\u751F\u7269\uFF0C\u771F\u662F\u592A\u51FA\u8272\u4E86\uFF01\u73B0\u5728\uFF0C\u7EE7\u7EED\u524D\u884C\uFF0C\u5411\u5B9E\u9A8C\u57FA\u5730\u7684\u6838\u5FC3\u533A\u57DF\u8FDB\u53D1\u5427\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Attention little heroes! The mutated creatures are restless! You
+      need to eliminate {0} mutated creatures or accumulate {1} points of combat
+      results to unlock the door to the next area. Come on, let's see your bravery
+      and wisdom!
+    winStr_EN: That is great! You successfully repelled the first wave of mutated
+      creatures, it's really amazing! Now, keep moving forward and head towards the
+      core area of the experimental base!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: d1070000d2070000d3070000d4070000d5070000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: d1070000d2070000d3070000d4070000d5070000
+    cameraPos: {x: 27, y: 51.97741, z: 73.71852}
+    cameraAngle: {x: 3.699998, y: 180.09, z: 0.1630031}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -3, y: -1.55, z: 5.8}
+    - {x: -1.65, y: -1.58, z: 5.8}
+    - {x: 3, y: -1.62, z: 5.8}
+    - {x: 1.65, y: -1.58, z: 5.8}
+    - {x: 0.56, y: -1.62, z: 5.8}
+    - {x: -0.62, y: -1.62, z: 5.8}
+    - {x: -3, y: 0.5, z: 5.8}
+    - {x: -1.17, y: 0.5, z: 5.8}
+    - {x: 3, y: 0.5, z: 5.8}
+    - {x: 1.17, y: 0.5, z: 5.8}
+    - {x: 0.12, y: 0.5, z: 5.8}
+    attackPointPre:
+    - {x: -3, y: -1.55, z: 6.6}
+    - {x: -1.65, y: -1.58, z: 6.6}
+    - {x: 3, y: -1.62, z: 6.6}
+    - {x: 1.65, y: -1.58, z: 6.6}
+    - {x: 0.56, y: -1.62, z: 6.6}
+    - {x: -0.62, y: -1.62, z: 6.6}
+    - {x: -3, y: 0.5, z: 6.6}
+    - {x: -1.17, y: 0.5, z: 6.6}
+    - {x: 3, y: 0.5, z: 6.6}
+    - {x: 1.17, y: 0.5, z: 6.6}
+    - {x: 0.12, y: 0.5, z: 6.6}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level1
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: be1159b1c4fdba84b8ce034cd93d6a07, type: 2}
+  - scene: 2
+    level: 2
+    unitId: -1
+    levelStr: "\u8FD9\u4E00\u5173\uFF0C\u53D8\u5F02\u751F\u7269\u4EEC\u53D8\u5F97\u66F4\u52A0\u72E1\u733E\u548C\u5F3A\u5927\u3002\u4F60\u4EEC\u9700\u8981\u66F4\u52A0\u8C28\u614E\u5730\u884C\u52A8\uFF0C\u6D88\u706D{0}\u53EA\u53D8\u5F02\u751F\u7269\uFF0C\u6216\u8005\u7D2F\u79EF\u83B7\u5F97{1}\u5206\uFF0C\u624D\u80FD\u7EE7\u7EED\u524D\u8FDB\u3002\u7EE7\u7EED\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF0C\u4F60\u4EEC\u662F\u6700\u68D2\u7684\uFF01"
+    winStr: "YES\uFF01\u4F60\u4EEC\u592A\u68D2\u4E86\uFF01\u6210\u529F\u7A81\u7834\u4E86\u7B2C\u4E8C\u5173\uFF0C\u79BB\u5B9E\u9A8C\u57FA\u5730\u7684\u63A7\u5236\u4E2D\u5FC3\u53C8\u8FD1\u4E86\u4E00\u6B65\uFF01\u7EE7\u7EED\u4FDD\u6301\u8FD9\u4EFD\u52C7\u6C14\u548C\u51B3\u5FC3\uFF0C\u5411\u524D\u51B2\u5427\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: In this level, mutated creatures become more cunning and powerful.
+      You need to act more cautiously, eliminate {0} mutated creatures, or accumulate
+      {1} points in order to continue moving forward. Keep up the good work, little
+      heroes of the future, you are the best!
+    winStr_EN: "YES\uFF01 You guys are amazing! Successfully broke through the second
+      level and got one step closer to the control center of the experimental base!
+      Continue to maintain this courage and determination, and move forward!"
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: db070000dc070000dd070000de070000df070000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: db070000dc070000dd070000de070000df070000
+    cameraPos: {x: 27, y: 51.97741, z: 45.01}
+    cameraAngle: {x: 3.699998, y: 180, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -1.823, y: -1.58, z: 6.2}
+    - {x: -0.39, y: -1.54, z: 6.2}
+    - {x: 0.83, y: -1.58, z: 6.2}
+    - {x: 2.19, y: -1.55, z: 6.2}
+    - {x: 0.83, y: -1.58, z: 6.2}
+    - {x: -0.83, y: -1.58, z: 6.2}
+    - {x: -1.823, y: 0.35, z: 6.2}
+    - {x: -0.63, y: 0.35, z: 6.2}
+    - {x: 0.83, y: 0.35, z: 6.2}
+    - {x: 2.19, y: 0.35, z: 6.2}
+    attackPointPre:
+    - {x: -1.823, y: -1.58, z: 6.76}
+    - {x: -0.39, y: -1.54, z: 6.76}
+    - {x: 0.83, y: -1.58, z: 6.76}
+    - {x: 2.19, y: -1.55, z: 6.76}
+    - {x: 0.83, y: -1.58, z: 6.76}
+    - {x: -0.83, y: -1.58, z: 6.76}
+    - {x: -1.823, y: 0.35, z: 6.76}
+    - {x: -0.63, y: 0.35, z: 6.76}
+    - {x: 0.83, y: 0.35, z: 6.76}
+    - {x: 2.19, y: 0.35, z: 6.76}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level2
+    cameraMoveAnim: {fileID: 7400000, guid: 8303f97c420faae41b732f1ede39ea3b, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a5ba457c0d6a9a444afe8402589c59df, type: 2}
+  - scene: 2
+    level: 3
+    unitId: -1
+    levelStr: 
+    winStr: 
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: e5070000e6070000e7070000e8070000e9070000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: e5070000e6070000e7070000e8070000e9070000
+    cameraPos: {x: 28.3, y: 51.4, z: 36.1}
+    cameraAngle: {x: 0, y: 90, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: 1.653, y: -1.39, z: 5.55}
+    - {x: 0.4, y: -1.39, z: 5.55}
+    - {x: -0.7, y: -1.39, z: 5.55}
+    - {x: -2, y: -1.39, z: 5.55}
+    - {x: 1.653, y: 0.6, z: 4.85}
+    - {x: 0.4, y: 0.42, z: 4.85}
+    - {x: -0.7, y: 0.6, z: 4.85}
+    - {x: -2, y: 0.6, z: 4.85}
+    attackPointPre:
+    - {x: 1.653, y: -1.39, z: 5.6}
+    - {x: 0.4, y: -1.39, z: 5.6}
+    - {x: -0.7, y: -1.39, z: 5.6}
+    - {x: -2, y: -1.39, z: 5.6}
+    - {x: 1.653, y: 0.6, z: 5.6}
+    - {x: 0.4, y: 0.42, z: 5.6}
+    - {x: -0.7, y: 0.6, z: 5.6}
+    - {x: -2, y: 0.6, z: 5.6}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level3
+    cameraMoveAnim: {fileID: 7400000, guid: 39011a33051323a4d8ce1b52d41b4ff6, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 7eb32f7917f574240a26b6fe10a1342a, type: 2}
+  - scene: 2
+    level: 4
+    unitId: -1
+    levelStr: 
+    winStr: 
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: ef070000f0070000f1070000f2070000f3070000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: ef070000f0070000f1070000f2070000f3070000
+    cameraPos: {x: 25.5, y: 51.4, z: 28.9}
+    cameraAngle: {x: 0, y: 270, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -1.653, y: -1.39, z: 5.55}
+    - {x: -0.4, y: -1.39, z: 5.55}
+    - {x: 0.7, y: -1.39, z: 5.55}
+    - {x: 2, y: -1.39, z: 5.55}
+    - {x: -1.653, y: 0.6, z: 5.55}
+    - {x: -0.4, y: 0.36, z: 5.55}
+    - {x: 0.7, y: 0.6, z: 5.55}
+    - {x: 2, y: 0.6, z: 5.55}
+    attackPointPre:
+    - {x: -1.653, y: -1.39, z: 5.3}
+    - {x: -0.4, y: -1.39, z: 5.3}
+    - {x: 0.7, y: -1.39, z: 5.3}
+    - {x: 2, y: -1.39, z: 5.3}
+    - {x: -1.653, y: 0.6, z: 5.3}
+    - {x: -0.4, y: 0.36, z: 5.3}
+    - {x: 0.7, y: 0.6, z: 5.3}
+    - {x: 2, y: 0.6, z: 5.3}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level4
+    cameraMoveAnim: {fileID: 7400000, guid: 30c08c1ef6e31ea418abb7d4358e03b1, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 79a34b4c1995f2b439759a42452c4138, type: 2}
+  - scene: 2
+    level: 5
+    unitId: -1
+    levelStr: 
+    winStr: 
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: f9070000fa070000fb070000fc070000fd070000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: f9070000fa070000fb070000fc070000fd070000
+    cameraPos: {x: 27, y: 51.3, z: 17.8}
+    cameraAngle: {x: 0, y: 179.693, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: -1.679, y: -1.29, z: 4.001}
+    - {x: -3.81, y: -1.26, z: 6.105}
+    - {x: -0.59, y: -1.26, z: 4.43}
+    - {x: 1.679, y: -1.29, z: 4.001}
+    - {x: 3.346, y: -1.26, z: 6.105}
+    - {x: 0.74, y: -1.26, z: 4.43}
+    - {x: 0.74, y: -1.26, z: 4.43}
+    - {x: -0.74, y: -1.26, z: 4.43}
+    - {x: 0.74, y: 0.2, z: 4.43}
+    - {x: -0.74, y: 0.2, z: 4.43}
+    - {x: -1.679, y: 0.2, z: 4.001}
+    - {x: 1.679, y: 0.2, z: 4.001}
+    attackPointPre:
+    - {x: -1.679, y: -1.29, z: 4.38}
+    - {x: -4.01, y: -1.26, z: 6.105}
+    - {x: -0.59, y: -1.26, z: 5.36}
+    - {x: 1.679, y: -1.29, z: 4.38}
+    - {x: -4.01, y: -1.26, z: 6.105}
+    - {x: 0.74, y: -1.26, z: 5.36}
+    - {x: 0.74, y: -1.26, z: 5.36}
+    - {x: -0.74, y: -1.26, z: 5.36}
+    - {x: 0.74, y: 0.2, z: 5.36}
+    - {x: -0.74, y: 0.2, z: 5.36}
+    - {x: -1.679, y: 0.2, z: 4.38}
+    - {x: 1.679, y: 0.2, z: 4.38}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level5
+    cameraMoveAnim: {fileID: 7400000, guid: c7ad54e17c591944d87d0f608ae7e8be, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 2
+    level: 6
+    unitId: -1
+    levelStr: 
+    winStr: 
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: 
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 0308000004080000050800000608000007080000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: 0308000004080000050800000608000007080000
+    cameraPos: {x: 28.56, y: 51.1, z: 11.84}
+    cameraAngle: {x: 0.6370511, y: 89.93964, z: 0.2697372}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: 2, y: -1.01, z: 4.598}
+    - {x: 0.5, y: -1.01, z: 4.598}
+    - {x: -0.87, y: -1.01, z: 4.598}
+    - {x: -2, y: -1.01, z: 4.598}
+    - {x: 2, y: 0.5, z: 4.598}
+    - {x: 0.5, y: 0.5, z: 4.598}
+    - {x: -0.87, y: 0.5, z: 4.598}
+    - {x: -2, y: 0.5, z: 4.598}
+    attackPointPre:
+    - {x: 2, y: -1.01, z: 5.62}
+    - {x: 0.5, y: -1.01, z: 5.62}
+    - {x: -0.87, y: -1.01, z: 5.62}
+    - {x: -2, y: -1.01, z: 5.62}
+    - {x: 2, y: 0.5, z: 5.62}
+    - {x: 0.5, y: 0.5, z: 5.62}
+    - {x: -0.87, y: 0.5, z: 5.62}
+    - {x: -2, y: 0.5, z: 5.62}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level6
+    cameraMoveAnim: {fileID: 7400000, guid: 9c07a070e119c574582a1757a27073f9, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: 760b374c86c7d9043942c5417d06300a, type: 2}
+  - scene: 2
+    level: 7
+    unitId: -1
+    levelStr: "\u8FD9\u4E00\u5173\uFF0C\u4F60\u4EEC\u5C06\u9762\u5BF9\u53D8\u5F02\u751F\u7269\u4EEC\u7684\u7CBE\u9510\u90E8\u961F\u3002\u5B83\u4EEC\u6570\u91CF\u4F17\u591A\uFF0C\u5B9E\u529B\u5F3A\u5927\u3002\u5C0F\u670B\u53CB\u4EEC\u4E00\u5B9A\u8981\u56E2\u7ED3\u4E00\u5FC3\uFF0C\u53D1\u6325\u56E2\u961F\u7684\u529B\u91CF\uFF0C\u6D88\u706D\u8FD9\u4E9B\u53D8\u5F02\u751F\u7269\uFF0C\u4E3A\u6700\u7EC8\u7684\u51B3\u6218\u505A\u597D\u51C6\u5907\uFF01"
+    winStr: "\u592A\u68D2\u4E86\uFF01\u4F60\u4EEC\u6210\u529F\u7A81\u7834\u4E86\u8FD9\u4E00\u5173\uFF0C\u524D\u9762\u5C31\u662F\u5B9E\u9A8C\u57FA\u5730\u7684\u63A7\u5236\u4E2D\u5FC3\u4E86\uFF01\u5C0F\u82F1\u96C4\u4EEC\uFF0C\u51C6\u5907\u597D\u4E86\u5417\uFF1F\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u4E3A\u4E86\u5B9E\u9A8C\u57FA\u5730\u7684\u672A\u6765\uFF0C\u53D1\u8D77\u6700\u540E\u7684\u51B2\u950B\u5427\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: In this level, you will face the elite troops of mutant creatures.
+      They are numerous and powerful. Children must unite as one, unleash the power
+      of the team, eliminate these mutated creatures, and prepare for the final battle!
+    winStr_EN: That is great! You have successfully overcome this hurdle, and the
+      control center of the experimental base is ahead! Little heroes, are you ready?
+      Let's launch the final charge together for the future of the experimental base!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 0d0800000e0800000f0800001008000011080000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: 0d0800000e0800000f0800001008000011080000
+    cameraPos: {x: 26.93, y: 51.35, z: 5.82}
+    cameraAngle: {x: 357.201, y: 180, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: 1.131123, y: -1.64, z: 5.991457}
+    - {x: 0, y: -1.64, z: 5.991457}
+    - {x: -2.21, y: -1.64, z: 7.111}
+    - {x: -1.131123, y: -1.64, z: 5.991457}
+    - {x: -1.131123, y: -1.64, z: 5.991457}
+    - {x: 1.131123, y: -1.64, z: 5.991457}
+    - {x: -1.131123, y: 0, z: 5.991457}
+    - {x: 1.131123, y: 0, z: 5.991457}
+    - {x: 0, y: 0, z: 5.991457}
+    - {x: -2.21, y: 0, z: 7.111}
+    attackPointPre:
+    - {x: 1.131123, y: -1.64, z: 6.79}
+    - {x: 0, y: -1.64, z: 6.79}
+    - {x: -2.21, y: -1.64, z: 8.16}
+    - {x: -1.131123, y: -1.64, z: 6.79}
+    - {x: -1.131123, y: -1.64, z: 6.79}
+    - {x: 1.131123, y: -1.64, z: 6.79}
+    - {x: -1.131123, y: 0, z: 6.79}
+    - {x: 1.131123, y: 0, z: 6.79}
+    - {x: 0, y: 0, z: 6.79}
+    - {x: -2.21, y: 0, z: 6.79}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level7
+    cameraMoveAnim: {fileID: 7400000, guid: 7682403fcf1ab614a8a0f4c795cc5e86, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs:
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+    - delayTime: 0
+      animClip: {fileID: 7400000, guid: a7fc527291a2c264bbb8d9daf39bccb3, type: 2}
+  - scene: 2
+    level: 8
+    unitId: -1
+    levelStr: 
+    winStr: "\u592A\u68D2\u4E86\uFF01\u4F60\u4EEC\u6210\u529F\u7A81\u7834\u4E86\u8FD9\u4E00\u5173\uFF0C\u524D\u9762\u5C31\u662F\u5B9E\u9A8C\u57FA\u5730\u7684\u63A7\u5236\u4E2D\u5FC3\u4E86\uFF01\u5C0F\u82F1\u96C4\u4EEC\uFF0C\u51C6\u5907\u597D\u4E86\u5417\uFF1F\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u4E3A\u4E86\u5B9E\u9A8C\u57FA\u5730\u7684\u672A\u6765\uFF0C\u53D1\u8D77\u6700\u540E\u7684\u51B2\u950B\u5427\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: 
+    winStr_EN: That is great! You have successfully overcome this hurdle, and the
+      control center of the experimental base is ahead! Little heroes, are you ready?
+      Let's launch the final charge together for the future of the experimental base!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 1708000018080000190800001a0800001b080000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: 1708000018080000190800001a0800001b080000
+    cameraPos: {x: 25.79, y: 51.227, z: -5.887}
+    cameraAngle: {x: 357.2, y: 270, z: 0}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: 0.883, y: -1.44, z: 4.457}
+    - {x: -0.85, y: -1.44, z: 4.457}
+    attackPointPre:
+    - {x: 0.883, y: -1.44, z: 5.34}
+    - {x: -0.85, y: -1.44, z: 5.34}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene2\bg_scene2_level8
+    cameraMoveAnim: {fileID: 7400000, guid: a6cb7de95069ca74e90bfde64d418e81, type: 2}
+    isShowPassConditionText: 0
+    isShowResultText: 0
+    cameraMoveConfigs: []
+  - scene: 2
+    level: 9
+    unitId: 2099
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: 2108000022080000230800002408000025080000
+      _values: 0800000008000000080000000800000008000000
+    isAdvanceSpawn: 1
+    spawnIds: 33080000
+    cameraPos: {x: 27, y: 51.227, z: -5.887}
+    cameraAngle: {x: 357.2, y: 180, z: 359.989}
+    stayInAttackUnitNum: 5
+    attackPointList:
+    - {x: 2.8, y: -1.51, z: 6.4}
+    - {x: 1.8, y: -1.51, z: 6.4}
+    - {x: 0.7, y: -1.51, z: 6.4}
+    - {x: -2.8, y: -1.51, z: 6.4}
+    - {x: -1.8, y: -1.51, z: 6.4}
+    - {x: -0.7, y: -1.51, z: 6.4}
+    - {x: 2.8, y: 0.6, z: 6.4}
+    - {x: 1.39, y: 0.6, z: 6.4}
+    - {x: -2.8, y: 0.6, z: 6.4}
+    - {x: -0.7, y: 0.6, z: 6.4}
+    attackPointPre:
+    - {x: 2.8, y: -1.51, z: 6.95}
+    - {x: 1.8, y: -1.51, z: 6.95}
+    - {x: 0.7, y: -1.51, z: 6.95}
+    - {x: -2.8, y: -1.51, z: 6.95}
+    - {x: -1.8, y: -1.51, z: 6.95}
+    - {x: -0.7, y: -1.51, z: 6.95}
+    - {x: 2.8, y: 0.6, z: 6.95}
+    - {x: 1.39, y: 0.6, z: 6.95}
+    - {x: -2.8, y: 0.6, z: 6.95}
+    - {x: -0.7, y: 0.6, z: 6.95}
+    isBossLevel: 1
+    bgmPath: 
+    cameraMoveAnim: {fileID: 7400000, guid: c02c4c64271a935479928ce7305491d0, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  - scene: 3
+    level: 1
+    unitId: -1
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: b90b0000ba0b0000bb0b0000bc0b0000bd0b0000
+      _values: 0200000002000000020000000200000001000000
+    isAdvanceSpawn: 1
+    spawnIds: b90b0000ba0b0000bb0b0000bc0b0000bd0b0000
+    cameraPos: {x: -21.8, y: -2.3, z: -76.71}
+    cameraAngle: {x: 6.37, y: -4.053, z: 0}
+    stayInAttackUnitNum: 2
+    attackPointList:
+    - {x: -0.58, y: -1, z: 3.77}
+    - {x: 0.89, y: -1, z: 3.77}
+    - {x: 0.89, y: -0.85, z: 3.77}
+    attackPointPre:
+    - {x: -0.58, y: -0.85, z: 4.86}
+    - {x: 0.89, y: -0.85, z: 4.86}
+    - {x: 0.89, y: -0.85, z: 4.86}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene3\bg_scene3_level1
+    cameraMoveAnim: {fileID: 7400000, guid: 66c71428d6aac074bb29de6c0d14e4c1, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  - scene: 3
+    level: 2
+    unitId: -1
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: c30b0000c40b0000c50b0000c60b0000c80b0000c90b0000
+      _values: 020000000200000002000000020000000300000003000000
+    isAdvanceSpawn: 1
+    spawnIds: c30b0000c40b0000c50b0000c60b0000c80b0000c90b0000
+    cameraPos: {x: -22.44, y: -2.3, z: -54.8}
+    cameraAngle: {x: 1.925, y: 2.306, z: 0}
+    stayInAttackUnitNum: 2
+    attackPointList:
+    - {x: -0.72, y: -1.28, z: 3.93}
+    - {x: 1.53, y: -1.28, z: 3.93}
+    - {x: 0.16, y: -1.29, z: 3.93}
+    attackPointPre:
+    - {x: -0.72, y: -1.28, z: 5.94}
+    - {x: 1.53, y: -1.28, z: 5.94}
+    - {x: 0.16, y: -1.29, z: 5.94}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene3\bg_scene3_level2
+    cameraMoveAnim: {fileID: 0}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  - scene: 3
+    level: 3
+    unitId: -1
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: cd0b0000ce0b0000cf0b0000d00b0000d20b0000d30b0000
+      _values: 020000000200000002000000020000000300000003000000
+    isAdvanceSpawn: 1
+    spawnIds: cd0b0000ce0b0000cf0b0000d00b0000d20b0000d30b0000
+    cameraPos: {x: -14.4, y: -2.1, z: -48.04}
+    cameraAngle: {x: 8.59, y: 90, z: -0}
+    stayInAttackUnitNum: 2
+    attackPointList:
+    - {x: -0.61, y: -1.05, z: 3.72}
+    - {x: 0.97, y: -1.05, z: 3.72}
+    - {x: 0.22, y: -1.09, z: 3.72}
+    attackPointPre:
+    - {x: -0.89, y: -1.58, z: 5.89}
+    - {x: 2.33, y: -1.58, z: 5.89}
+    - {x: 1.18, y: -1.6, z: 5.89}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene3\bg_scene3_level3
+    cameraMoveAnim: {fileID: 7400000, guid: 2715d3f824d62ff43bdaf26bbd2cd168, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  - scene: 3
+    level: 4
+    unitId: -1
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: d70b0000d80b0000d90b0000da0b0000dc0b0000dd0b0000
+      _values: 020000000200000002000000020000000300000003000000
+    isAdvanceSpawn: 0
+    spawnIds: d70b0000d80b0000d90b0000da0b0000dc0b0000dd0b0000
+    cameraPos: {x: -12, y: 1.686, z: -27.944}
+    cameraAngle: {x: -0, y: 0, z: 0}
+    stayInAttackUnitNum: 2
+    attackPointList:
+    - {x: -0.89, y: -1.63, z: 4.96}
+    - {x: 0.14, y: -1.63, z: 4.96}
+    - {x: 1.3, y: -1.63, z: 4.96}
+    - {x: 0.2, y: -1.63, z: 4.96}
+    attackPointPre:
+    - {x: -0.89, y: -1.63, z: 5.89}
+    - {x: 0.14, y: -1.63, z: 5.89}
+    - {x: 1.3, y: -1.63, z: 5.89}
+    - {x: 0.2, y: -1.63, z: 5.89}
+    isBossLevel: 0
+    bgmPath: Sounds\bg\scene3\bg_scene3_level4
+    cameraMoveAnim: {fileID: 7400000, guid: 64619b02d94320b4a854fd12bc39c6ea, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  - scene: 3
+    level: 5
+    unitId: 3099
+    levelStr: "\u7EC8\u4E8E\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\u9762\u524D\uFF01\u5B83\u662F\u8FD9\u4E00\u5207\u707E\u96BE\u7684\u6E90\u5934\u3002\u5C0F\u670B\u53CB\u4EEC\uFF0C\u8FD9\u662F\u6700\u540E\u7684\u6311\u6218\u4E86\u3002\u8BA9\u6211\u4EEC\u4E00\u8D77\uFF0C\u7528\u52C7\u6C14\u548C\u667A\u6167\uFF0C\u6D88\u706D\u8FD9\u4E2A\u5F3A\u5927\u7684\u654C\u4EBA\uFF0C\u593A\u56DE\u6211\u4EEC\u7684\u5B9E\u9A8C\u57FA\u5730\uFF01"
+    winStr: "\u606D\u559C\u4F60\u4EEC\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01\u4F60\u4EEC\u6210\u529F\u6D88\u706D\u4E86\u53D8\u5F02\u751F\u7269\u7684\u9996\u9886\uFF0C\u593A\u56DE\u4E86\u5B9E\u9A8C\u57FA\u5730\uFF01\u4F60\u4EEC\u662F\u6700\u52C7\u6562\u3001\u6700\u667A\u6167\u7684\u6218\u58EB\uFF01\u671F\u5F85\u4F60\u4EEC\u5728\u672A\u6765\u7684\u5192\u9669\u4E2D\u518D\u521B\u4F73\u7EE9\uFF01\u52A0\u6CB9\uFF0C\u672A\u6765\u7684\u5C0F\u82F1\u96C4\u4EEC\uFF01"
+    failStr: "\u5F88\u9057\u61BE\u6CA1\u80FD\u5B8C\u6210\u4EFB\u52A1\u5462\uFF0C\u671F\u5F85\u60A8\u7684\u518D\u6B21\u6311\u6218\uFF01\uFF01"
+    levelStr_EN: Finally, we have arrived in front of the leader of the mutated creatures!
+      It is the source of all these disasters. Children, this is the final challenge.
+      Let's work together with courage and wisdom to eliminate this powerful enemy
+      and reclaim our experimental base!
+    winStr_EN: Congratulations, little heroes of the future! You have successfully
+      eliminated the leader of the mutated creature and recaptured the experimental
+      base! You are the bravest and wisest warriors! Looking forward to achieving
+      even better results in your future adventures! Come on, little heroes of the
+      future!
+    failStr_EN: I'm sorry that I couldn't complete the task. I look forward to your
+      challenge again! !
+    continueTime: 30
+    maxUnitNum: 25
+    maxUnitNum2: 35
+    singleUnitLimit:
+      _keys: e10b0000e20b0000e30b0000e40b0000
+      _values: 04000000040000000400000004000000
+    isAdvanceSpawn: 0
+    spawnIds: 1b0c0000
+    cameraPos: {x: -14.18, y: 1.243, z: -10.962}
+    cameraAngle: {x: -0, y: -90, z: 0}
+    stayInAttackUnitNum: 2
+    attackPointList:
+    - {x: 1.22, y: -1.2, z: 5.23}
+    - {x: 2.62, y: -1.2, z: 5.23}
+    - {x: -1.48, y: -1.2, z: 5.23}
+    - {x: -3, y: -1.2, z: 5.23}
+    - {x: -0.2, y: -1.2, z: 5.23}
+    attackPointPre:
+    - {x: 1.22, y: -1.2, z: 5.89}
+    - {x: 2.62, y: -1.2, z: 5.89}
+    - {x: -1.48, y: -1.2, z: 5.89}
+    - {x: -3, y: -1.2, z: 5.89}
+    - {x: -0.2, y: -1.2, z: 5.89}
+    isBossLevel: 1
+    bgmPath: 
+    cameraMoveAnim: {fileID: 7400000, guid: d76d2564b1a1039478c3967605139308, type: 2}
+    isShowPassConditionText: 1
+    isShowResultText: 1
+    cameraMoveConfigs: []
+  normalLevelCameraMoveTime: 2
