@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4548872655663565034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4548872655663565033}
+  - component: {fileID: 4548872655663565038}
+  - component: {fileID: 4548872655663565039}
+  - component: {fileID: 4548872655663565032}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4548872655663565033
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548872655663565034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4548872656177348245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 210, y: 210}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4548872655663565038
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548872655663565034}
+  m_CullTransparentMesh: 1
+--- !u!114 &4548872655663565039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548872655663565034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 13db5635707d95a4fafb6dd3c103ebc2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4548872655663565032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548872655663565034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8620e497b00ad7b4aba213355b15c65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPS: 40
+  SpriteFrames:
+  - {fileID: 21300000, guid: 13db5635707d95a4fafb6dd3c103ebc2, type: 3}
+  - {fileID: 21300000, guid: fc7ea09b4c149284e8781fc6b345ce9f, type: 3}
+  - {fileID: 21300000, guid: d695905b85de557498697b1f77a68c75, type: 3}
+  - {fileID: 21300000, guid: 5f25d519b12acda44bd9218026bd0210, type: 3}
+  - {fileID: 21300000, guid: d7820747aabcf5842a99ac7ac427c083, type: 3}
+  - {fileID: 21300000, guid: fd4bf93ba41fe4c4183b38f84f9603a3, type: 3}
+  - {fileID: 21300000, guid: dd1404eb43a55b64fa4f6ce8979d5e9c, type: 3}
+  - {fileID: 21300000, guid: ca913d1ad1b319449bf112843259c12c, type: 3}
+  - {fileID: 21300000, guid: 65809cf135475a249a01b99296950bc1, type: 3}
+  - {fileID: 21300000, guid: 7722d86b5638ff64db2aaaf936df0df4, type: 3}
+  - {fileID: 21300000, guid: e5c531164944a464da5dfa5f178598e1, type: 3}
+  - {fileID: 21300000, guid: 5445b8dd594e6504293af1610721a3b3, type: 3}
+  - {fileID: 21300000, guid: 2b1383e00b751a14caf0ccc12564c614, type: 3}
+  - {fileID: 21300000, guid: 3f4957fb3e1f9444a87b2e2541d03239, type: 3}
+  - {fileID: 21300000, guid: ff62f92984ac6354db2baa1442b73b86, type: 3}
+  - {fileID: 21300000, guid: 13db1d49c2365bc4183ac621310c9bab, type: 3}
+  - {fileID: 21300000, guid: edfd55634cc8fd04a997c50d102d2fb9, type: 3}
+  - {fileID: 21300000, guid: 3d3e3ff79359e854d91d23990ab10d8e, type: 3}
+  - {fileID: 21300000, guid: 9f06cedd8c34b53458fe86fc095b7623, type: 3}
+  - {fileID: 21300000, guid: db9a659a8873d9145ae5352c9f07db18, type: 3}
+  - {fileID: 21300000, guid: ef3b8c1975a44ad4584c4fdb77782354, type: 3}
+  - {fileID: 21300000, guid: 63ea4df6a1c63d74699e9087e9ce020b, type: 3}
+  - {fileID: 21300000, guid: c8530bb1f3fb9b542a8ec5b4c4998923, type: 3}
+  - {fileID: 21300000, guid: 5bdbe4dd7a6a76c4289175340979abe7, type: 3}
+  - {fileID: 21300000, guid: fe939d2c9b4499548b909fdfff530eeb, type: 3}
+  - {fileID: 21300000, guid: b82ea26673381e142b432393db28dce2, type: 3}
+  - {fileID: 21300000, guid: 107f7c58f2ba7294ca34c0f0e6886eb8, type: 3}
+  - {fileID: 21300000, guid: ae9f2eb6afee2e548b13a218761f0169, type: 3}
+  - {fileID: 21300000, guid: 729488003f507c24fa2f25c186e1af9d, type: 3}
+  - {fileID: 21300000, guid: 68b06e35e46d93d4988bc8e8669f66aa, type: 3}
+  - {fileID: 21300000, guid: 2a843ce2ef00b6a40814e869f0d6693d, type: 3}
+  IsPlaying: 0
+  Forward: 1
+  AutoPlay: 1
+  Loop: 1
+--- !u!1 &4548872656177348246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4548872656177348245}
+  m_Layer: 5
+  m_Name: GoldCoinEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4548872656177348245
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548872656177348246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4548872655663565033}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
