@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cb5937802d621ee4bb3203df94543289
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameLevelTime: {fileID: 4687038036600091091, guid: c52278018255f3643962d49bd68fdc54, type: 3}
+  - gameLevelTarget: {fileID: 4942172443519344834, guid: 682448ca0a416a74893206b6bf9d75bd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

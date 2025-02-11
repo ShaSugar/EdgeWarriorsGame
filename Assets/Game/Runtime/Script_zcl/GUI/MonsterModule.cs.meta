@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d8cc2c2a84b3d5f4bbcf5ca8f2c56421
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameMonsterHPOrAttack: {fileID: 7551298886043763024, guid: c4f1e4fe92a966141bed654ce3f4d205, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
