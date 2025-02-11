@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7bcdbc992f9ba44b1caa7412fcabaf, type: 3}
+  m_Name: MonsterType2PathConfigData2043_2003
+  m_EditorClassIdentifier: 
+  unitId: 2003
+  spawnId: 2043
+  inSpeed: -1
+  outSpeed: -1
+  minAttackTime: 1
+  maxAttackTime: 3
+  attackCount: 1
+  attackPercent: 50
+  pathPosList:
+  - inPosList:
+    - {x: 4.6, y: 0.2, z: 13.26}
+    - {x: 1.1, y: -0.05, z: 11.8}
+    - {x: 0.48, y: 0.48, z: 7.51}
+    - {x: 0.74, y: 0.2, z: 4.43}
+    outPosList:
+    - {x: 0.74, y: 0.2, z: 4.43}
+    - {x: 0.48, y: 0.48, z: 7.51}
+    - {x: 1.1, y: -0.05, z: 11.8}
+    - {x: 4.6, y: 0.2, z: 13.26}
+    attackIndex: 8
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: -4.6, y: 0.2, z: 13.26}
+    - {x: -1.1, y: -0.05, z: 11.8}
+    - {x: -0.48, y: 0.63, z: 7.51}
+    - {x: -0.74, y: 0.2, z: 4.43}
+    outPosList:
+    - {x: -0.74, y: 0.2, z: 4.43}
+    - {x: -0.48, y: 0.63, z: 7.51}
+    - {x: -1.1, y: -0.05, z: 11.8}
+    - {x: -4.6, y: 0.2, z: 13.26}
+    attackIndex: 9
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: -8.43, y: 0.2, z: 4.17}
+    - {x: -4, y: 0.2, z: 4.8}
+    - {x: -1.679, y: 0.2, z: 4.001}
+    outPosList:
+    - {x: -1.679, y: 0.2, z: 4.001}
+    - {x: -4, y: 0.2, z: 4.8}
+    - {x: -8.43, y: 0.2, z: 4.17}
+    attackIndex: 10
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: 8.43, y: 0.2, z: 4.17}
+    - {x: 4, y: 0.2, z: 4.8}
+    - {x: 1.679, y: 0.2, z: 4.001}
+    outPosList:
+    - {x: 1.679, y: 0.2, z: 4.001}
+    - {x: 4, y: 0.2, z: 4.8}
+    - {x: 8.43, y: 0.2, z: 4.17}
+    attackIndex: 11
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0

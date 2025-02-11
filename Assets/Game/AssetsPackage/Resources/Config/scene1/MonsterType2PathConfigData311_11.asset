@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7bcdbc992f9ba44b1caa7412fcabaf, type: 3}
+  m_Name: MonsterType2PathConfigData311_11
+  m_EditorClassIdentifier: 
+  unitId: 11
+  spawnId: 311
+  inSpeed: -1
+  outSpeed: -1
+  minAttackTime: 1
+  maxAttackTime: 3
+  attackCount: 1
+  attackPercent: 100
+  pathPosList:
+  - inPosList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    outPosList:
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackIndex: 0
+    isPlayEnterAnim: 0
+    reverseFlag: 1
+    isEnterAttackPos: 1
+  - inPosList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -10, y: -14.3, z: 53}
+    outPosList:
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackIndex: 1
+    isPlayEnterAnim: 0
+    reverseFlag: 1
+    isEnterAttackPos: 1
+  - inPosList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    outPosList:
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackIndex: 2
+    isPlayEnterAnim: 0
+    reverseFlag: 1
+    isEnterAttackPos: 1
+  - inPosList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    outPosList:
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackIndex: 3
+    isPlayEnterAnim: 0
+    reverseFlag: 1
+    isEnterAttackPos: 1
+  - inPosList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    outPosList:
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackIndex: 4
+    isPlayEnterAnim: 0
+    reverseFlag: 1
+    isEnterAttackPos: 1
