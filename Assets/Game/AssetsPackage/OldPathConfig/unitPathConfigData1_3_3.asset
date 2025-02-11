@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39de8ce607b49e4e94a1393ba996415, type: 3}
+  m_Name: unitPathConfigData1_3_3
+  m_EditorClassIdentifier: 
+  spawnId: 3
+  randPathConfigs:
+  - unitId: 3
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: -51, y: -4, z: 60}
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    inAttackPos1: {x: -15, y: -5, z: 25}
+    inAttackPos2: {x: 16, y: -5, z: 26}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: 43, y: -4, z: 70}
+    minAttackTime: 1
+    maxAttackTime: 3
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 70
+  - unitId: 3
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: -60, y: -4, z: 70}
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    inAttackPos1: {x: -15, y: -5, z: 25}
+    inAttackPos2: {x: 16, y: -5, z: 26}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: 34, y: -4, z: 55}
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 70
+  - unitId: 3
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: 34, y: -4, z: 55}
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    inAttackPos1: {x: -15, y: -5, z: 25}
+    inAttackPos2: {x: 16, y: -5, z: 26}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: -60, y: -4, z: 70}
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 70
+  - unitId: 3
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: 43, y: -4, z: 70}
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    inAttackPos1: {x: -15, y: -5, z: 25}
+    inAttackPos2: {x: 16, y: -5, z: 26}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: -51, y: -4, z: 60}
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 70
+  fixedPathConfigs: []
+  unitBossConfigs: []
+  unitBossHitPointPathConfigs: []

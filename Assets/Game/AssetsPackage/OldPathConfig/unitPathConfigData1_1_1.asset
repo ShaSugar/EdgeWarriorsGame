@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39de8ce607b49e4e94a1393ba996415, type: 3}
+  m_Name: unitPathConfigData1_1_1
+  m_EditorClassIdentifier: 
+  spawnId: 1
+  randPathConfigs:
+  - unitId: 1
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: -51, y: -4, z: 60}
+    inStartPosList: []
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: 43, y: -4, z: 70}
+    outEndPosList: []
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 50
+  - unitId: 1
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: -60, y: -4, z: 70}
+    inStartPosList: []
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: 34, y: -4, z: 55}
+    outEndPosList: []
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 50
+  - unitId: 1
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: 34, y: -4, z: 55}
+    inStartPosList: []
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: -60, y: -4, z: 70}
+    outEndPosList: []
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 50
+  - unitId: 1
+    inSpeed: -1
+    outSpeed: -1
+    inStartPos: {x: 43, y: -4, z: 70}
+    inStartPosList: []
+    inCenterPos1: {x: -17, y: -4, z: 50}
+    inCenterPos2: {x: 5, y: -4, z: 50}
+    outCenterPos1: {x: -17, y: -4, z: 50}
+    outCenterPos2: {x: 5, y: -4, z: 50}
+    outEndPos: {x: -51, y: -4, z: 60}
+    outEndPosList: []
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackIndexList: 0000000001000000020000000300000004000000
+    attackPercent: 50
+  fixedPathConfigs: []
+  unitBossConfigs: []

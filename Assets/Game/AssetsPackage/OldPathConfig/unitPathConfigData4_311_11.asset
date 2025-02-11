@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39de8ce607b49e4e94a1393ba996415, type: 3}
+  m_Name: unitPathConfigData4_311_11
+  m_EditorClassIdentifier: 
+  spawnId: 311
+  randPathConfigs: []
+  fixedPathConfigs:
+  - unitId: 11
+    inSpeed: -1
+    outSpeed: -1
+    posList:
+    - {x: -58, y: -11, z: 72}
+    - {x: -48, y: -11, z: 68}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -10, y: -14.3, z: 53}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 65, y: -14.3, z: 78}
+    attackPos1: 5
+    attackPos2: 10
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackPercent: 50
+  - unitId: 11
+    inSpeed: -1
+    outSpeed: -1
+    posList:
+    - {x: 65, y: -14.3, z: 78}
+    - {x: 50, y: -14.3, z: 66}
+    - {x: 40, y: -14.3, z: 60}
+    - {x: 30, y: -14.3, z: 55}
+    - {x: 20, y: -14.3, z: 53}
+    - {x: 10, y: -14.3, z: 52}
+    - {x: 0, y: -14.3, z: 52}
+    - {x: -10, y: -14.3, z: 53}
+    - {x: -20, y: -14.3, z: 53}
+    - {x: -30, y: -14.3, z: 56}
+    - {x: -40, y: -14.3, z: 60}
+    - {x: -48, y: -11, z: 68}
+    - {x: -58, y: -11, z: 72}
+    attackPos1: 5
+    attackPos2: 10
+    minAttackTime: 2
+    maxAttackTime: 5
+    attackCount: 1
+    attackPercent: 50
+  unitBossConfigs: []
+  unitBossHitPointPathConfigs: []
