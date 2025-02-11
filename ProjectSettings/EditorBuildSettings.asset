@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BDFramework/startup.unity
+    guid: 5ac05830942d1be4a8f27ff09458288d
+  - enabled: 1
+    path: Assets/Game/AssetsPackage/Scenes/menu.unity
+    guid: c15e6e6253d06c8489ff4b35a1c59cd3
+  - enabled: 1
+    path: Assets/Game/AssetsPackage/Scenes/scene1.unity
+    guid: ddf426ccd1d8b3d44bf3bbbd1110b4c2
+  - enabled: 1
+    path: Assets/ReplaceHandle_zcl/scene2/_Creepy_Cat/_3D Scifi Kit Vol 2/scene2.unity
+    guid: bf4d6318ff69c40fd95b9f3b2d787099
+  - enabled: 0
+    path: Assets/Game/AssetsPackage/Scenes/plotScene1.unity
+    guid: c8cea30a9398f8247a7c6887cb7ad9b2
+  - enabled: 1
+    path: Assets/ReplaceHandle_zcl/Zombie/SFLCK_2/Scenes/scene3.unity
+    guid: 64025cce2a62de74dba5c8c60207e56c
+  m_configObjects: {}

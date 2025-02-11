@@ -1,0 +1,3 @@
+rep "EdgeWarriorsGame@edge-warriors-game@cloud.cn"
+  path "/"
+    smartbranch "/main"
