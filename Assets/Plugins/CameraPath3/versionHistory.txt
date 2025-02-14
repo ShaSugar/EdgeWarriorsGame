@@ -4,6 +4,24 @@ Version History
 Any issues, comments or suggestions please send to email@jasperstocker.com
 
 ------------------------------------------------------
+3.61 - 26 July 2017
+------------------------------------------------------
+Fixed issue with inaccurate preview points in inspector
+
+------------------------------------------------------
+3.6 - 9 April 2017
+------------------------------------------------------
+Factored in Unity 5.6 syntax changes to remove warnings
+Fixed issue with out of range calculations on CameraPath.cs 634
+
+------------------------------------------------------
+3.54 - 11 July 2016
+------------------------------------------------------
+Fixed a bug with looped follow paths jumping at loop
+Fixed normalisation calculations for looping paths
+Added orientation debug arrows for followpath
+
+------------------------------------------------------
 3.52 - 21 March 2016
 ------------------------------------------------------
 Added colour option for in scene text

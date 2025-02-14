@@ -21,4 +21,5 @@ public class CameraPathColours
     public static Color CYAN = new Color(0, 0.3f, 0.8f);
     public static Color PURPLE = new Color(0.5f, 0.1f, 0.5f);
     public static Color MAGENTA = new Color(0.8f, 0.1f, 0.8f);
+    public static Color WHITE = new Color(1f, 1f, 1f);
 }

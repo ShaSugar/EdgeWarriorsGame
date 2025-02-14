@@ -12,6 +12,9 @@ using System;
 using System.IO;
 using UnityEngine;
 using UnityEditor;
+#if UNITY_5_3_OR_NEWER
+using UnityEngine.SceneManagement;
+#endif
 using Object = UnityEngine.Object;
 
 public class CameraPathEditorInspectorGUI
@@ -277,7 +280,7 @@ public class CameraPathEditorInspectorGUI
 
         if (_cameraPath.enableUndo) Undo.RecordObject(point, "Modify Path Point");
         if (_animator != null && point != null)
-            CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percentage);
+            CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.normalisedPercentage, true);
         //            RenderPreview(point.worldPosition, _animator.GetAnimatedOrientation(point.percentage,true), _cameraPath.GetPathFOV(point.percentage));
         PointListGUI();
         EditorGUILayout.Space();
@@ -353,7 +356,7 @@ public class CameraPathEditorInspectorGUI
             point = _cameraPath[selectedPointIndex];
 
         if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null && point != null)
-            CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percentage);
+            CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percentage, true);
         //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percentage,true),_cameraPath.GetPathFOV(point.percentage));
 
         PointListGUI();
@@ -399,7 +402,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent,true),_cameraPath.GetPathFOV(point.percent));
         }
 
@@ -486,7 +489,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent,true),_cameraPath.GetPathFOV(point.percent));
         }
 
@@ -567,13 +570,21 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent,true),_cameraPath.GetPathFOV(point.percent));
         }
 
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.LabelField("Interpolation Algorithm");
         pointList.interpolation = (CameraPathTiltList.Interpolation)EditorGUILayout.EnumPopup(pointList.interpolation);
+        EditorGUILayout.EndHorizontal();
+        
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Show Orientation Inidcators", GUILayout.Width(170));
+        _cameraPath.showOrientationIndicators = EditorGUILayout.Toggle(_cameraPath.showOrientationIndicators);
+        EditorGUILayout.LabelField("Every", GUILayout.Width(40));
+        _cameraPath.orientationIndicatorUnitLength = Mathf.Max(EditorGUILayout.FloatField(_cameraPath.orientationIndicatorUnitLength, GUILayout.Width(30)), 0.1f);
+        EditorGUILayout.LabelField("units", GUILayout.Width(40));
         EditorGUILayout.EndHorizontal();
 
         if (pointList.realNumberOfPoints == 0)
@@ -633,7 +644,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent,true),_cameraPath.GetPathFOV(point.percent));
         }
 
@@ -684,7 +695,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent, true),_cameraPath.GetPathFOV(point.percent));
         }
 
@@ -757,7 +768,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent, true),_cameraPath.GetPathFOV(point.percent));
         }
 
@@ -803,7 +814,7 @@ public class CameraPathEditorInspectorGUI
             point = pointList[selectedPointIndex];
 
             if (CameraPathPreviewSupport.previewSupported && _cameraPath.editorPreview != null && _animator != null)
-                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.percent);
+                CameraPathPreviewSupport.RenderPreview(_cameraPath, _animator, point.animationPercentage, true);
             //            RenderPreview(point.worldPosition,_animator.GetAnimatedOrientation(point.percent, true),_cameraPath.GetPathFOV(point.percent));
 
         }
@@ -1535,6 +1546,7 @@ public class CameraPathEditorInspectorGUI
         Vector3 finalPathPosition = _cameraPath.GetPathPosition(1.0f);
         Vector3 finalPathDirection = _cameraPath.GetPathDirection(1.0f);
         float finalArcLength = _cameraPath.StoredArcLength(_cameraPath.numberOfCurves - 1);
+        if(finalArcLength < Mathf.Epsilon) finalArcLength = 1;
         Vector3 newPathPointPosition = finalPathPosition + finalPathDirection * (finalArcLength);
         newPoint.worldPosition = newPathPointPosition;
         newPoint.forwardControlPointLocal = _cameraPath[_cameraPath.realNumberOfPoints - 1].forwardControlPointLocal;
@@ -1758,7 +1770,13 @@ public class CameraPathEditorInspectorGUI
 
     private static void ExportXML()
     {
-        string[] currentScene = EditorApplication.currentScene.Split(char.Parse("/"));
+        string currentSceneRaw = "";
+#if UNITY_5_3_OR_NEWER
+        currentSceneRaw = SceneManager.GetActiveScene().name;
+#else
+        currentSceneRaw = EditorApplication.currentScene;
+#endif
+        string[] currentScene = currentSceneRaw.Split(char.Parse("/"));
         currentScene = currentScene[currentScene.Length - 1].Split(char.Parse("."));
         string defaultName = string.Format("{0}_{1}", currentScene[0], _cameraPath.name);
         defaultName = defaultName.Replace(" ", "_");

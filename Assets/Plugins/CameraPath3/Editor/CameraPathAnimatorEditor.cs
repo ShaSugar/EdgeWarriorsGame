@@ -8,6 +8,7 @@
 // IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
 
+using CPA;
 using UnityEngine;
 using UnityEditor;
 
@@ -65,16 +66,14 @@ public class CameraPathAnimatorEditor : Editor
 
         //Preview Direction Arrow
         float handleSize = HandleUtility.GetHandleSize(_previewCamPos);
-        Handles.ArrowHandleCap(0, _previewCamPos, _previewCamRot, handleSize, EventType.Repaint);
-        // Handles.ArrowCap(0, _previewCamPos, _previewCamRot, handleSize);
+        UnityVersionWrapper.HandlesArrowCap(0, _previewCamPos, _previewCamRot, handleSize);
         Handles.Label(_previewCamPos, "Preview\nCamera\nPosition", _colouredText);
 
         if(_animator.startPercent != 0)
         {
             Vector3 startPos = _cameraPath.GetPathPosition(_animator.startPercent);
             Handles.color = Color.red;
-            Handles.DotHandleCap(0,startPos,Quaternion.identity,HandleUtility.GetHandleSize(startPos)*0.03f, EventType.Repaint);
-            // Handles.DotCap(0,startPos,Quaternion.identity,HandleUtility.GetHandleSize(startPos)*0.03f);
+            UnityVersionWrapper.HandlesArrowCap(0,startPos,Quaternion.identity,HandleUtility.GetHandleSize(startPos)*0.03f);
             Handles.Label(startPos, "Animation\nStart\nPoint", _colouredText);
         }
 

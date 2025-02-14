@@ -21,7 +21,7 @@ using System.Collections.Generic;
 [ExecuteInEditMode]
 public class CameraPath : MonoBehaviour
 {
-    public static float CURRENT_VERSION_NUMBER = 3.52f;
+    public static float CURRENT_VERSION_NUMBER = 3.61f;
     public float version = CURRENT_VERSION_NUMBER;
 
     public enum PointModes
@@ -167,7 +167,7 @@ public class CameraPath : MonoBehaviour
 
     //Camera Path Options
     public bool showGizmos = true;
-    public Color selectedPathColour = CameraPathColours.GREEN;
+    public Color selectedPathColour = CameraPathColours.WHITE;
     public Color unselectedPathColour = CameraPathColours.GREY;
     public Color selectedPointColour = CameraPathColours.RED;
     public Color unselectedPointColour = CameraPathColours.GREEN;
@@ -312,7 +312,8 @@ public class CameraPath : MonoBehaviour
     /// <returns></returns>
     public float StoredArcLength(int curve)
     {
-        if(_looped)
+        if (_storedArcLengths.Length == 0) return 0.01f;
+        if (_looped)
             curve = curve % (numberOfCurves-1);
         else
             curve = Mathf.Clamp(curve, 0, numberOfCurves - 1);
@@ -591,8 +592,8 @@ public class CameraPath : MonoBehaviour
         if(_normalised)
         {
             int max = storedValueArraySize - 1;
-            float storedPointSize = (1.0f / storedValueArraySize);
-            int normalisationIndex = Mathf.Clamp(Mathf.FloorToInt(storedValueArraySize * percentage), 0, max);
+            float storedPointSize = (1.0f / max);
+            int normalisationIndex = Mathf.Clamp(Mathf.FloorToInt(max * percentage), 0, max);
             int nextNormalisationIndex = Mathf.Clamp(normalisationIndex + 1, 0, max);
             float normalisationPercentA = normalisationIndex * storedPointSize;
             float normalisationPercentB = nextNormalisationIndex * storedPointSize;
@@ -626,7 +627,7 @@ public class CameraPath : MonoBehaviour
         float targetLength = percentage * _storedTotalArcLength;
 
         int low = 0;
-        int high = storedValueArraySize-1;
+        int high = storedValueArraySize-2;
         int index = 0;
         while (low < high)
         {
@@ -696,7 +697,6 @@ public class CameraPath : MonoBehaviour
     {
         return GetPathPosition(percentage, false);
     }
-
 
     /// <summary>
     /// Get a position based on a percent of the path specifying the result will be normalised or not
@@ -786,13 +786,13 @@ public class CameraPath : MonoBehaviour
         if(indexa == indexb)
             return _storedPathDirections[indexa];
 
-        float percentA = indexa / (float)storedValueArraySize;
-        float percentB = indexb / (float)storedValueArraySize;
+        float percentA = indexa / (float)max;
+        float percentB = indexb / (float)max;
 
         float lerpVal = (percentage - percentA) / (percentB - percentA);
         Vector3 dirA = _storedPathDirections[indexa];
         Vector3 dirB = _storedPathDirections[indexb];
-
+        
         return Vector3.Lerp(dirA, dirB, lerpVal);
     }
 
@@ -1132,6 +1132,7 @@ public class CameraPath : MonoBehaviour
             float arcPercentage = pointBPercentage - pointAPercentage;
             Vector3 arcCentre = Vector3.Lerp(pointA.worldPosition, pointB.worldPosition, 0.5f);
             float arcLength = StoredArcLength(GetCurveIndex(pointA.index));
+            if(arcLength < Mathf.Epsilon) continue;
             float arcDistance = Vector3.Distance(sceneCamera.transform.position, arcCentre);
             int arcPoints = Mathf.CeilToInt(Mathf.Min(arcLength, 50) / (Mathf.Max(arcDistance, 20)/2000));//Mathf.RoundToInt(arcLength * (40 / Mathf.Max(arcDistance, 20)));
             float arcTime = 1.0f / arcPoints;
@@ -1204,6 +1205,8 @@ public class CameraPath : MonoBehaviour
             _storedTotalArcLength += thisArcLength;
         }
 
+        if(_storedTotalArcLength < Mathf.Epsilon) return;
+
         _storedValueArraySize = Mathf.Max(Mathf.RoundToInt(_storedTotalArcLength / _storedPointResolution), 1);
         float normilisePercentAmount = 1.0f / (_storedValueArraySize * 10);
         float normalisePercent = 0;
@@ -1222,7 +1225,23 @@ public class CameraPath : MonoBehaviour
         Vector3 pA = GetPathPosition(0, true), pB;
 
         storedPoints.Add(pA);
-        storedDirections.Add((GetPathPosition(normilisePercentAmount, true) - pA).normalized);
+
+
+
+        float f0, f1;
+        if (!_looped)
+        {
+            f0 = 0;
+            f1 = Mathf.Clamp(normalisePercent + _directionWidth, 0, 1);
+        }
+        else
+        {
+            f0 = (normalisePercent - _directionWidth + 1) % 1;
+            f1 = (normalisePercent + _directionWidth) % 1;
+        }
+        Vector3 initDirection = (GetPathPosition(f1, true) - GetPathPosition(f0, true)).normalized;
+
+        storedDirections.Add(initDirection);
         normValues.Add(0);
 
         for (; normalisePercent < 1.0f; normalisePercent += normilisePercentAmount)
@@ -1239,9 +1258,18 @@ public class CameraPath : MonoBehaviour
                 storedPoints.Add(pB);
 
                 //calculate direction
-                float xPercent = Mathf.Clamp(normalisePercent - _directionWidth, 0, 1);
+                float xPercent, yPercent;
+                if(!_looped)
+                {
+                    xPercent = Mathf.Clamp(normalisePercent - _directionWidth, 0, 1);
+                    yPercent = Mathf.Clamp(normalisePercent + _directionWidth, 0, 1);
+                }
+                else
+                {
+                    xPercent = (normalisePercent - _directionWidth + 1) % 1;
+                    yPercent = (normalisePercent + _directionWidth) % 1;
+                }
                 Vector3 pX = GetPathPosition(xPercent, true);
-                float yPercent = Mathf.Clamp(normalisePercent + _directionWidth, 0, 1);
                 Vector3 pY = GetPathPosition(yPercent, true);
 
                 Vector3 pointDireciton = ((pA - pX) + (pY - pA)).normalized;
@@ -1260,8 +1288,20 @@ public class CameraPath : MonoBehaviour
         }
         normValues.Add(1);
         storedPoints.Add(GetPathPosition(1, true));
-        Vector3 ff = GetPathPosition(1, true);//final position
-        Vector3 pf = GetPathPosition(1f-normilisePercentAmount, true);//penultimate position
+        
+        if (!_looped)
+        {
+            f0 = Mathf.Clamp(normalisePercent - _directionWidth, 0, 1);
+            f1 = 1;
+        }
+        else
+        {
+            f0 = (normalisePercent - _directionWidth + 1) % 1;
+            f1 = (normalisePercent + _directionWidth) % 1;
+        }
+
+        Vector3 pf = GetPathPosition(f0, true);//penultimate position
+        Vector3 ff = GetPathPosition(f1, true);//final position
         Vector3 finalDirection = (ff - pf).normalized;
         storedDirections.Add(finalDirection);
 

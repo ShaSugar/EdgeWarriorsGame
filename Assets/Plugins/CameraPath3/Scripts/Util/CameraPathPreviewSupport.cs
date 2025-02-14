@@ -10,7 +10,9 @@ public class CameraPathPreviewSupport
         get
         {
 #if UNITY_EDITOR
+#if !UNITY_5_6_OR_NEWER
             if (!SystemInfo.supportsRenderTextures) return false;
+#endif
 #endif
             return true;
         }
@@ -20,14 +22,16 @@ public class CameraPathPreviewSupport
         get
         {
 #if UNITY_EDITOR
+#if !UNITY_5_6_OR_NEWER
             if (!SystemInfo.supportsRenderTextures) return "Render Textures is not support now";
+#endif
 #endif
             return "";
         }
     }
 
 #if UNITY_EDITOR
-    public static void RenderPreview(CameraPath path, CameraPathAnimator animator, float percent)//, float viewSize)
+    public static void RenderPreview(CameraPath path, CameraPathAnimator animator, float percent, bool ignoreNormalisation = false)//, float viewSize)
     {
         if (path.realNumberOfPoints < 2)
             return;
@@ -35,7 +39,7 @@ public class CameraPathPreviewSupport
             return;
 
         //Get animation values and apply them to the preview camera
-        Vector3 position = path.GetPathPosition(percent);
+        Vector3 position = path.GetPathPosition(percent, ignoreNormalisation);
         Quaternion rotation = animator.GetAnimatedOrientation(percent, false);
 
         EditorGUILayout.Space();

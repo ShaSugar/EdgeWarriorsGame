@@ -622,7 +622,7 @@ public class CameraPathAnimator : MonoBehaviour
                 _pathTime = _cameraPath.pathLength / Mathf.Max(cameraPath.GetPathSpeed(_percentage), minimumCameraSpeed);
             else
                 _pathTime = _cameraPath.pathLength / Mathf.Max(_pathSpeed * cameraPath.GetPathEase(_percentage), minimumCameraSpeed);
-
+            
             animationObject.position = cameraPath.GetPathPosition(_percentage);
         }
 
@@ -699,23 +699,23 @@ public class CameraPathAnimator : MonoBehaviour
                     break;
 
                 case animationModes.loop:
-                    if(_percentage >= 1)
+                    _percentage += Time.deltaTime * (1.0f / _pathTime);
+                    if (_percentage >= 1)
                     {
-                        _percentage = 0;
+                        _percentage -= 1;
                         _lastPercentage = 0;
                         if(AnimationLoopedEvent != null) AnimationLoopedEvent();
                     }
-                    _percentage += Time.deltaTime * (1.0f / _pathTime);
                     break;
 
                 case animationModes.reverseLoop:
-                    if(_percentage <= 0)
+                    _percentage += -Time.deltaTime * (1.0f / _pathTime);
+                    if (_percentage <= 0)
                     {
-                        _percentage = 1;
+                        _percentage += 1;
                         _lastPercentage = 1;
                         if(AnimationLoopedEvent != null) AnimationLoopedEvent();
                     }
-                    _percentage += -Time.deltaTime * (1.0f / _pathTime);
                     break;
 
                 case animationModes.reverse:
