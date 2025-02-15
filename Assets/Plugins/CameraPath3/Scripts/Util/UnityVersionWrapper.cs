@@ -9,7 +9,9 @@ namespace CPA
         public static void HandlesArrowCap(int controlId, Vector3 position, Quaternion rotation, float size)
         {
 #if UNITY_5_6_OR_NEWER
-            if(rotation.w <= 0.0f)
+            // if(rotation.magnitude <= 0.0f)
+            //     rotation.Normalize();
+            // if(rotation.w <= 0.0f)
                 rotation.Normalize();
             UnityEditor.Handles.ArrowHandleCap(controlId, position, rotation, size, EventType.Repaint);
 #else

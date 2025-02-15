@@ -185,7 +185,7 @@ public class GameSceneWindow_UICtrl : UICtrl
 
         if (GameSceneMgr.Instance.CurScenePlayType() == GameScenePlay.Plot)
         {
-            yield return PGL_Main.LoadCameraAniClips();
+            yield return PGL_Main.PreLoadResource();
         }
         else
         {

@@ -113,8 +113,7 @@ public class CameraPathEventList : CameraPathPointList
                 eventPoint.target.SendMessage(eventPoint.methodName, SendMessageOptions.DontRequireReceiver);
                 break;
             case CameraPathEvent.ArgumentTypes.Int:
-                int intValue;
-                if (int.TryParse(eventPoint.methodArgument, out intValue))
+                if (int.TryParse(eventPoint.methodArgument, out var intValue))
                     eventPoint.target.SendMessage(eventPoint.methodName, intValue, SendMessageOptions.DontRequireReceiver);
                 else
                     Debug.LogError("Camera Path Aniamtor: The argument specified is not an integer");

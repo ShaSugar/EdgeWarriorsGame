@@ -576,7 +576,6 @@ GameObject:
   m_Component:
   - component: {fileID: 315041677}
   - component: {fileID: 315041678}
-  - component: {fileID: 315041679}
   m_Layer: 0
   m_Name: MainCameraRoot
   m_TagString: Untagged
@@ -607,7 +606,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315041676}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
@@ -616,18 +615,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &315041679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315041676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52a75e3295503c418334b2e2572d051, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &869703774
 GameObject:
   m_ObjectHideFlags: 0

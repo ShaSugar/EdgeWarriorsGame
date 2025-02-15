@@ -34,3 +34,10 @@ MonoBehaviour:
     isShowGameStartEffect: 1
     continueTime: 30
     levelNum: 5
+  - sceneName: plotScene1
+    playType: 1
+    initCameraPos: {x: 0, y: 0, z: 0}
+    initCameraAngle: {x: 0, y: 0, z: 0}
+    isShowGameStartEffect: 0
+    continueTime: 30
+    levelNum: 5

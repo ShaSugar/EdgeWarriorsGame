@@ -12,6 +12,9 @@ public class EventMgr : UnitySingleton<EventMgr>
 
     public void AddListener(string eventName, Action<string, object> onEvent)
     {
+        if (this.eventActions == null)
+            return;
+        
         if (this.eventActions.TryAdd(eventName, onEvent))
             return;
 
@@ -27,6 +30,9 @@ public class EventMgr : UnitySingleton<EventMgr>
 
     public void Emit(string eventName, object data)
     {
+        if (this.eventActions == null)
+            return;
+
         if (!this.eventActions.TryGetValue(eventName, out Action<string, object> action))
             return;
 

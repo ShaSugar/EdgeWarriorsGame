@@ -1040,7 +1040,10 @@ public class CameraPathEditorInspectorGUI
                     else
                     {
                         point.target = (GameObject)EditorGUILayout.ObjectField(point.target, typeof(GameObject), true);
+                        point.argumentType = (CameraPathEvent.ArgumentTypes)EditorGUILayout.EnumPopup(point.argumentType, GUILayout.Width(50));
                         point.methodName = EditorGUILayout.TextField(point.methodName, GUILayout.Width(55));
+                        if(point.argumentType != CameraPathEvent.ArgumentTypes.None)
+                            point.methodArgument = EditorGUILayout.TextField(point.methodArgument, GUILayout.Width(55));
                     }
                     break;
             }

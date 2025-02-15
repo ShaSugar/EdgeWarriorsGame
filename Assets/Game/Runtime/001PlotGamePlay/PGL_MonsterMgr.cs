@@ -36,8 +36,11 @@ public class PGL_MonsterMgr : UnitySingleton<PGL_MonsterMgr>
     }
     public void ResetUnitRoot()
     {
-        unitParentTran.position = Vector3.zero;
-        unitParentTran.rotation = Quaternion.identity;
+        if (unitParentTran)
+        {
+            unitParentTran.position = Vector3.zero;
+            unitParentTran.rotation = Quaternion.identity;
+        }
     }
     public void ClearAll()
     {
