@@ -136,15 +136,18 @@ public class PGL_Main : MonoBehaviour
             ? _mainCameraSubRootAnim
             : CameraController.Instance.MainCameraSubRootAnim);
 
-        MainCameraRootAnim.Stop();
-        MainCameraRootTran.localPosition = Vector3.zero;
-        MainCameraRootTran.localRotation = Quaternion.identity;
-        // MainCameraRootTran.position = GameSceneMgr.Instance.CurSceneInitCamPos();
-        // MainCameraRootTran.eulerAngles = GameSceneMgr.Instance.CurSceneInitCamAngle();
+        if (MainCameraRootTran && MainCameraSubRootTran &&  MainCameraRootAnim && MainCameraSubRootAnim)
+        {
+            MainCameraRootAnim.Stop();
+            MainCameraRootTran.localPosition = Vector3.zero;
+            MainCameraRootTran.localRotation = Quaternion.identity;
+            // MainCameraRootTran.position = GameSceneMgr.Instance.CurSceneInitCamPos();
+            // MainCameraRootTran.eulerAngles = GameSceneMgr.Instance.CurSceneInitCamAngle();
 
-        MainCameraSubRootAnim.Stop();
-        MainCameraSubRootTran.localPosition = Vector3.zero;
-        MainCameraSubRootTran.localRotation = Quaternion.identity;
+            MainCameraSubRootAnim.Stop();
+            MainCameraSubRootTran.localPosition = Vector3.zero;
+            MainCameraSubRootTran.localRotation = Quaternion.identity;
+        }
 
         PGL_MonsterMgr.Instance.ResetUnitRoot();
         
