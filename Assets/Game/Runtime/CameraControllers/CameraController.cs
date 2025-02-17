@@ -67,8 +67,8 @@ public class CameraController : UnitySingleton<CameraController>
     float movingPassedTime;
     Vector3 startPos, endPos;
     Quaternion startRot, endRot;
-    Vector3 shakeStrength = new(1, 1, 0);
-    Vector3 shakeStrength2 = new(0.5f, 0.5f, 0);
+    Vector3 shakeStrength = new(0.5f, 0.5f, 0);
+    Vector3 shakeStrength2 = new(0.25f, 0.25f, 0);
 
     public void Init()
     {

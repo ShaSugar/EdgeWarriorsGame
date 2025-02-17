@@ -388,7 +388,7 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3001_jiangshi01
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
     deathAniTime: 1.667
     attackDeductTime: 0.7
     minMoveSpeed: 2
-    maxMoveSpeed: 5
+    maxMoveSpeed: 4
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/2_feilong_attack
     deathSound: Sounds/3_xunren_die
@@ -408,15 +408,15 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3002_jiangshi02
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
     attackAniTime: 1.5
     deathAniTime: 1.667
     attackDeductTime: 0.3
-    minMoveSpeed: 3
-    maxMoveSpeed: 7
+    minMoveSpeed: 2
+    maxMoveSpeed: 5
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/1_eryu_attack
     deathSound: Sounds/3_xunren_die
@@ -435,8 +435,8 @@ MonoBehaviour:
     attackAniTime: 1.333
     deathAniTime: 1.333
     attackDeductTime: 0.3
-    minMoveSpeed: 3
-    maxMoveSpeed: 7
+    minMoveSpeed: 2
+    maxMoveSpeed: 5
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/1_eryu_attack
     deathSound: Sounds/3_xunren_die
@@ -448,7 +448,7 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3004_jiangshi04
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3005_jiangshi05
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
     deathAniTime: 1.333
     attackDeductTime: 0.3
     minMoveSpeed: 2
-    maxMoveSpeed: 5
+    maxMoveSpeed: 4
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/1_eryu_attack
     deathSound: Sounds/3_xunren_die
@@ -488,14 +488,14 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3006_jiangshi06
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
     attackAniTime: 1.333
     deathAniTime: 1.333
-    attackDeductTime: 0.3
-    minMoveSpeed: 0.5
+    attackDeductTime: 0.1
+    minMoveSpeed: 0.3
     maxMoveSpeed: 1
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/1_eryu_attack
@@ -508,14 +508,14 @@ MonoBehaviour:
     unitType: 2
     prefab: Monster/Monster3000/Monster3007_jiangshi07
     preloadCount: 5
-    health: 2
+    health: 5
     score: 10
     attack: 2
     enterAniTime: 0
     attackAniTime: 1.333
     deathAniTime: 1.333
-    attackDeductTime: 0.3
-    minMoveSpeed: 0.5
+    attackDeductTime: 0.1
+    minMoveSpeed: 0.4
     maxMoveSpeed: 1
     deathEffect: Effects/MinMinUnitDieEffect
     attackSound: Sounds/monster/1_eryu_attack

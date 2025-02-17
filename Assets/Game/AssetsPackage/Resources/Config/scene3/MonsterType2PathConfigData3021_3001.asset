@@ -22,43 +22,79 @@ MonoBehaviour:
   attackPercent: 50
   pathPosList:
   - inPosList:
-    - {x: -6.49, y: 0.6, z: 14.3}
-    - {x: -1.9, y: 0.6, z: 13.7}
-    - {x: -0.61, y: -1.05, z: 3.72}
+    - {x: -6.49, y: -1.41, z: 14.3}
+    - {x: -1.9, y: -1.43, z: 13.7}
+    - {x: -0.61, y: -1.56, z: 5}
     outPosList:
-    - {x: -1.22, y: -1.05, z: 3.95}
-    - {x: -1.68, y: -0.69, z: 6.28}
-    - {x: -2.18, y: 0.28, z: 12.5}
-    - {x: -6.61, y: 0.6, z: 14.3}
+    - {x: -1.22, y: -1.53, z: 4.74}
+    - {x: -1.68, y: -1.54, z: 6.28}
+    - {x: -2.18, y: -1.42, z: 12.5}
+    - {x: -6.61, y: -1.39, z: 14.3}
     attackIndex: 0
     enterAnimTimer: 0
     isPlayEnterAnim: 0
     reverseFlag: 0
     isEnterAttackPos: 0
   - inPosList:
-    - {x: 6.61, y: 0.6, z: 14.3}
-    - {x: 1.42, y: 0.28, z: 12.5}
-    - {x: 0.97, y: -1.05, z: 3.72}
+    - {x: 6.61, y: -1.41, z: 14.3}
+    - {x: 1.42, y: -1.43, z: 12.5}
+    - {x: 0.97, y: -1.56, z: 5}
     outPosList:
-    - {x: 1.49, y: -1.05, z: 3.77}
-    - {x: 1.68, y: -0.69, z: 6.28}
-    - {x: 2.18, y: 0.28, z: 12.5}
-    - {x: 6.61, y: 0.6, z: 14.3}
+    - {x: 1.58, y: -1.55, z: 5.3}
+    - {x: 1.68, y: -1.5, z: 6.92}
+    - {x: 2.18, y: -1.42, z: 12.5}
+    - {x: 6.61, y: -1.33, z: 14.3}
     attackIndex: 1
     enterAnimTimer: 0
     isPlayEnterAnim: 0
     reverseFlag: 0
     isEnterAttackPos: 0
   - inPosList:
-    - {x: -3.37, y: -0.37, z: 19.48}
-    - {x: -3.22, y: 0.7, z: 15.63}
-    - {x: -0.65, y: 0.46, z: 13.67}
-    - {x: 0.22, y: -1.09, z: 3.72}
+    - {x: -3.37, y: -3.13, z: 19.48}
+    - {x: -3.22, y: -1.54, z: 15.63}
+    - {x: -0.65, y: -1.39, z: 13.67}
+    - {x: 0.08, y: -1.56, z: 5}
     outPosList:
-    - {x: 0.64, y: -0.88, z: 4.99}
-    - {x: 0.65, y: 0.46, z: 13.67}
-    - {x: 2.85, y: 0.7, z: 15.63}
-    - {x: 3.07, y: -0.37, z: 19.48}
+    - {x: 0.52, y: -1.51, z: 5.97}
+    - {x: 0.65, y: -1.35, z: 13.67}
+    - {x: 2.85, y: -1.38, z: 15.63}
+    - {x: 3.07, y: -3.13, z: 19.48}
+    attackIndex: 2
+    enterAnimTimer: 0
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: -6.49, y: -1.41, z: 14.3}
+    - {x: -1.9, y: -1.43, z: 13.7}
+    - {x: -0.61, y: -1.56, z: 5}
+    outPosList:
+    - {x: -1.22, y: -1.58, z: 2.53}
+    - {x: -1.22, y: -1.65, z: -1.23}
+    attackIndex: 3
+    enterAnimTimer: 0
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: 6.61, y: -1.41, z: 14.3}
+    - {x: 1.42, y: -1.43, z: 12.5}
+    - {x: 0.97, y: -1.56, z: 5}
+    outPosList:
+    - {x: 1.17, y: -1.55, z: 3.05}
+    - {x: 1.17, y: -1.63, z: -0.79}
+    attackIndex: 4
+    enterAnimTimer: 0
+    isPlayEnterAnim: 0
+    reverseFlag: 0
+    isEnterAttackPos: 0
+  - inPosList:
+    - {x: -3.37, y: -3.13, z: 19.48}
+    - {x: -3.22, y: -1.54, z: 15.63}
+    - {x: -0.65, y: -1.39, z: 13.67}
+    - {x: 0.08, y: -1.56, z: 5}
+    outPosList:
+    - {x: 1.31, y: -1.66, z: -2.8}
     attackIndex: 2
     enterAnimTimer: 0
     isPlayEnterAnim: 0

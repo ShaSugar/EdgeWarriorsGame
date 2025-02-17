@@ -604,11 +604,11 @@ public class UnitMgr : UnitySingleton<UnitMgr>
 
     public void UpdateUnitConfigs()
     {
-        foreach (UnitConfigData.UnitConfig unitConfig in this.unitConfigs.Values)
-        {
-            unitConfig.health = MachineDataMgr.Instance.GetUnitHP(unitConfig.realUnitType);
-            unitConfig.attack = MachineDataMgr.Instance.GetUnitATT(unitConfig.realUnitType);
-        }
+        //foreach (UnitConfigData.UnitConfig unitConfig in this.unitConfigs.Values)
+        //{
+        //    unitConfig.health = MachineDataMgr.Instance.GetUnitHP(unitConfig.realUnitType);
+        //    unitConfig.attack = MachineDataMgr.Instance.GetUnitATT(unitConfig.realUnitType);
+        //}
     }
 
     void RecycleAllUnits()

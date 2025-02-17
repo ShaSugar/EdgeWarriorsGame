@@ -861,10 +861,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3011
-    delay: 0
+    delay: 2.5
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: b90b0000
     canSpawnNow: 1
@@ -872,10 +872,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3012
-    delay: 0
+    delay: 2.5
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: ba0b0000
     canSpawnNow: 1
@@ -883,10 +883,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3013
-    delay: 0
+    delay: 2.5
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bb0b0000
     canSpawnNow: 1
@@ -894,10 +894,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3014
-    delay: 0
+    delay: 2.5
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bc0b0000
     canSpawnNow: 1
@@ -916,10 +916,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3021
-    delay: 2
+    delay: 4
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: b90b0000
     canSpawnNow: 1
@@ -927,10 +927,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3022
-    delay: 2
+    delay: 4
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: ba0b0000
     canSpawnNow: 1
@@ -938,10 +938,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3023
-    delay: 2
+    delay: 4
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bb0b0000
     canSpawnNow: 1
@@ -949,10 +949,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3024
-    delay: 2
+    delay: 4
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bc0b0000
     canSpawnNow: 1
@@ -960,10 +960,10 @@ MonoBehaviour:
     minSpawnCount: 1
     maxSpawnCount: 1
   - spawnId: 3025
-    delay: 2
+    delay: 4
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bd0b0000
     canSpawnNow: 1
@@ -974,7 +974,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: b90b0000
     canSpawnNow: 1
@@ -985,7 +985,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: ba0b0000
     canSpawnNow: 1
@@ -996,7 +996,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bb0b0000
     canSpawnNow: 1
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bc0b0000
     canSpawnNow: 1
@@ -1029,7 +1029,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: b90b0000
     canSpawnNow: 1
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: ba0b0000
     canSpawnNow: 1
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bb0b0000
     canSpawnNow: 1
@@ -1062,7 +1062,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bc0b0000
     canSpawnNow: 1
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: be0b0000
     canSpawnNow: 1
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: bf0b0000
     canSpawnNow: 1
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: bf0b0000
     canSpawnNow: 1
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: be0b0000
     canSpawnNow: 1
@@ -1139,7 +1139,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: be0b0000
     canSpawnNow: 1
@@ -1150,7 +1150,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 2
     durationTime: 0
     unitIds: bf0b0000
     canSpawnNow: 1
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: bf0b0000
     canSpawnNow: 1
@@ -1172,7 +1172,7 @@ MonoBehaviour:
     delay: 0
     minInterval: 1
     maxInterval: 1
-    spawnCount: 0
+    spawnCount: 3
     durationTime: 0
     unitIds: be0b0000
     canSpawnNow: 1
