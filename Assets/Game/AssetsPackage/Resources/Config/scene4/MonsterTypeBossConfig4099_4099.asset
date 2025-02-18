@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ef82e8fbc8ba548ac7fd07c42d44a1, type: 3}
+  m_Name: MonsterTypeBossConfig4099_4099
+  m_EditorClassIdentifier: 
+  unitId: 4099
+  spawnId: 4099
+  angle: {x: 0, y: 185, z: 0}
+  enterStartPos: {x: 1, y: -40, z: 45}
+  enterEndPos: {x: 2, y: -9, z: 40}
+  ApproachHide: 1
+  enterTotalTime: 1.5
+  boss_action_enter_time: 4.35
+  boss_action_attack_timeline_time:
+  - 3.5
+  - 4.7
+  - 4
+  boss_action_attack_hp_time:
+  - 2
+  - 1.6
+  - 1
+  play1CameraPos: {x: 7.265422, y: 17.22995, z: -1.174229}
+  play1CameraRot: {x: -5.538, y: 88.799, z: 0.079}
+  play1SpawnTime: 1
+  play1SpawnIds: bf0f0000c00f0000c20f0000c20f0000
+  play1AttackMinTime: 3
+  play1AttackMaxTime: 8
+  play2Configs:
+  - countTime: 7
+    cameraPos: {x: 19, y: 15.7, z: -2.3}
+    cameraRot: {x: -12.6, y: 88.799, z: 0.079}
+    hitPointUnitId: 7
+    hitPointPosList:
+    - {x: -4.5, y: -2.5, z: 30}
+    - {x: 9, y: -2.5, z: 30}
+    - {x: 1.5, y: 4, z: 30}
+    - {x: 2, y: -3.5, z: 30}
+    cameraZoomInTime: 1.1
+    cameraZoomOutTime: 0.2
+    actionSlowDelayTime: 1.3
+    hitPointAppearDelayTime: 1.2
+  - countTime: 7
+    cameraPos: {x: 26.17, y: 15.23, z: -3.5}
+    cameraRot: {x: -35.67, y: 88.799, z: 0.079}
+    hitPointUnitId: 7
+    hitPointPosList:
+    - {x: -4, y: 8, z: 30}
+    - {x: 8.5, y: 8, z: 30}
+    - {x: 2.5, y: 3.5, z: 30}
+    - {x: 3, y: -1, z: 30}
+    cameraZoomInTime: 1.2
+    cameraZoomOutTime: 0.2
+    actionSlowDelayTime: 1.43
+    hitPointAppearDelayTime: 1.35
+  - countTime: 7
+    cameraPos: {x: 20.7, y: 17.22995, z: -1.174229}
+    cameraRot: {x: -16.7, y: 88.799, z: 0.079}
+    hitPointUnitId: 7
+    hitPointPosList:
+    - {x: -8, y: 5, z: 30}
+    - {x: 10, y: 1, z: 30}
+    - {x: 4, y: 5, z: 30}
+    - {x: 2.4, y: -2, z: 30}
+    cameraZoomInTime: 0.7
+    cameraZoomOutTime: 0.2
+    actionSlowDelayTime: 0.7
+    hitPointAppearDelayTime: 0.6
